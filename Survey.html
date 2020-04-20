@@ -1,0 +1,138 @@
+<html>
+    <header class="header">
+    <h1 id="title">
+      SURVEY
+    </h1>
+    <p id="description">Have you got a pet? Could you fill this survey? Thanks a lot.
+    </p>
+  </header>
+    <form id="survey-form">
+  <div class="survey-form">
+    <label id="name-label" for="name">Name</label><br>
+    <input type="text" name="name" id="name" class="form-data" placeholder="Enter your name" required>
+  </div>
+  <div class="survey-form">
+    <label id="email-label" for="email">Email</label><br>
+    <input type="email" name="email" id="email" class="form-data" placeholder="Enter your email" required>
+  </div>
+  <div class="survey-form">
+    <label id="number-label" for="age">Age</label><br>
+    <input type="number" name="age" id="number" class="form-data" min="10" max="99" placeholder="Age" required>
+  </div>
+  <p>Are yout happy with your pet?</p>
+  <div class="survey-form">
+    <select id="dropdown" name="dropDown" class="form-control" required>
+      <option disabled selected value> Choose one </option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  <p>How many pets have you got?</p>
+  <div class="survey-form">
+    <label>
+      <input name="manypets" value="1" type="radio" class="input-radio">
+      1
+    </label>
+    <label>
+      <input name="manypets" value="2" type="radio" class="input-radio">
+      2
+    </label>
+    <label>
+      <input name="manypets" value="3" type="radio" class="input-radio">
+      3
+    </label>
+    <label>
+      <input name="manypets" value="+3" type="radio" class="input-radio">
+      +3
+    </label>
+  </div>
+  <p> Have you got any of this pets? Please choose one or more below:</p>
+  <div class="survey-form">
+    <label>
+      <input name="pet" value="cat" type="checkbox" class="input-checkbox">
+      Cat
+    </label><br>
+    <label>
+      <input name="pet" value="dog" type="checkbox" class="input-checkbox">
+      Dog
+    </label><br>
+    <label>
+      <input name="pet" value="fish" type="checkbox" class="input-checkbox">
+      Fish
+    </label><br>
+    <label>
+      <input name="pet" value="parrot" type="checkbox" class="input-checkbox">
+      Parrot
+    </label><br>
+    <label>
+      <input name="pet" value="raccoon" type="checkbox" class="input-checkbox">
+      Raccoon
+    </label><br>
+    <label>
+      <input name="pet" value="hipo" type="checkbox" class="input-checkbox">
+      Hipo
+    </label><br>
+    <label>
+      <input name="pet" value="snake" type="checkbox" class="input-checkbox">
+      Snake
+    </label><br>
+    <label>
+      <input name="pet" value="pangolin" type="checkbox" class="input-checkbox">
+      Pangolin
+    </label><br>
+    <label>
+      <input name="pet" value="capibara" type="checkbox" class="input-checkbox">
+      Capibara
+    </label><br>
+    <label>
+      <input name="pet" value="emu" type="checkbox" class="input-checkbox">
+      Emu
+    </label><br>
+    <label>
+      <input name="pet" value="kangaroo" type="checkbox" class="input-checkbox">
+      Kangaroo
+    </label>
+  <div class="form-group">
+    <label id="comment-label">Any comment or suggestion about the service</label><br>
+    <textarea placeholder="Enter your comment here"></textarea><br>
+  </div>
+  <div class="form-group">
+    <button id="submit" type="submit">
+      Submit
+    </button>
+  </div>
+  
+</form>
+  </html>
+
+  <style>
+      html{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/52f44750e4b013e3f940993c/1560790234314-26JHBOXG4U1N2VSGFH8A/ke17ZwdGBToddI8pDm48kAIpBGoK5JcuSKC_DsBpgtB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmru5j-AQBePNiDV9hZLaF5JOUuEiaVxxLukkqfBKamUy-I9Nn0pYju0iNV-WuYigV/Jungle_animals_cheeta_monkey_river_otter_fishing_tropical_cute_baby.jpg?format=2500w");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: arial;
+  font-size: 1rem;
+}
+
+header{
+  text-align: center;
+  width: 35em;
+  margin: auto;
+  border-radius: 0.25rem;
+  color: white;
+  background: rgba(153, 153, 153, 0.7);
+}
+
+#survey-form
+{
+  width: 35em;
+  margin: 5em;
+  border: 5em;
+  padding: 5em;
+  margin: auto;
+  border-radius: 0.25rem;
+  color: white;
+  background: rgba(153, 153, 153, 0.7);
+}
+  </style>
