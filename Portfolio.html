@@ -1,0 +1,260 @@
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#welcome-section">About</a>
+      </li>
+        <li>
+        <a href="#projects">Projects</a>
+      </li>
+        <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hi, I am Karim</h1>
+    <p>This is my portfolio, made with HTML5 & CSS3</p>
+  </section>
+  
+  <section id="projects" class="projects-section">
+    
+    <h2 class="projects-section-header"><u>These are some of my projects</u></h2>
+    
+    <div class=project-grid>
+        <a
+        href="https://codepen.io/KarimSF/full/ZEGwXLJ"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://fotos.subefotos.com/da81c63e8020f706c1a09c976e8690b1o.jpg"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Tribute Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      
+      <a
+        href="https://codepen.io/KarimSF/full/vYOPVxQ"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://fotos.subefotos.com/22464fadbbd884dd1e8f3c8f4e248af7o.jpg"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Survey
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      
+      <a
+        href="https://codepen.io/KarimSF/full/eYNwwwy"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://fotos.subefotos.com/5ade5a70a2bee85339ee015a22c720cdo.jpg"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Product Landing Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      
+      <a
+        href="https://codepen.io/KarimSF/full/bGVdQER"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://fotos.subefotos.com/6cf20e6b17b2086e0ffc646037fab22fo.jpg"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Technical Documentation JS
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      
+    </div>
+  </section>
+  
+   <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>don't hesitate to contact me</h2>
+    </div>
+    <div class="contact-links">
+      <a id="profile-link" href="https://github.com/karimsf" target="_blank"><img
+          class="link-image"
+          src="https://fotos.subefotos.com/c9edce75b723599695d0541a0b46336fo.png"
+        /></a>
+      <a id="profile-link" href="mailto:example@example.com" target="_blank"><img
+          class="link-image"
+          src="https://fotos.subefotos.com/ba45a1047667b72517d429ec2b3bb881o.png"
+        />
+      </a>
+      <a id="profile-link" href="https://www.instagram.com/karim_sf90/?hl=es" target="_blank"><img
+          class="link-image"
+          src="https://fotos.subefotos.com/f956df66d219f9772d327c5ea5dc4c4bo.png"
+        /></a>
+      <a id="profile-link" href="https://www.linkedin.com/in/karim-suleiman-fern%C3%A1ndez-ba4b11125/" target="_blank"><img
+          class="link-image"
+          src="https://fotos.subefotos.com/8b010d74d5e5b447f193df822626e98fo.png"
+        /></a>
+    </div>
+  </section>
+
+  <style>
+      /* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+.welcome-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  color: white;
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #8fbc8f;
+}
+
+h1{
+  font-size: 4rem;
+  font-family: arial;
+}
+
+h2 {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  font-family: arial;
+}
+
+.projects-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: top;
+  width: 100%;
+  height: 100vh;
+  background: #008B8B;
+  color: white;
+}
+
+.nav-list{
+  display:flex;  
+  list-style:none;
+}
+
+.nav{
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #8fbc8f;
+  font-family: Arial;
+}
+
+.nav-list a {
+  padding: 1rem;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover {
+  background: #568f56;
+}
+
+body{
+  margin: 0px;
+}
+
+.project-image{
+  width: 80%;
+  width: 90%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-grid{
+  display: flex;
+  justify-content: left;
+}
+
+p {
+  font-weight: 200;
+  font-family: arial;
+  color: white;
+}
+
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: top;
+  width: 100%;
+  height: 100vh;
+  background-image: white;
+}
+
+.contact-section-header > h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #8fbc8f;
+}
+
+.link-image{
+  width: 2%;
+  padding: 2em;
+}
+  </style>
